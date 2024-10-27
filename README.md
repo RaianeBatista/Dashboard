@@ -1,6 +1,8 @@
 # Projeto de Dasboard
 * Rockeseat
 
+  ![Captura de tela 2024-10-27 021155](https://github.com/user-attachments/assets/173d0ee7-70ba-4a35-b4e8-6f2b0aa44d63)
+
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
