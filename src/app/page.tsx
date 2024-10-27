@@ -2,7 +2,7 @@ import { SettingsTabs } from '@/components/SettingsTabs';
 import * as Input from '@/components/Input copy';
 import { Bold, Italic, Link, List, ListOrdered, Mail } from 'lucide-react';
 import * as FileInput from '@/components/Form/FileInput';
-import { Select } from '@/components/Form/Select';
+import { Select } from '@/components/Form';
 import { SelectItem } from '@/components/Form/Select/SelectItem';
 import { Textarea } from '@/components/Form/Textarea';
 
@@ -96,7 +96,7 @@ export default function Home() {
             </FileInput.Root>
           </div>
 
-          <div className='grid gap-3 grid-cols-form pt-5'>
+          <div className='grid gap-3 grid-cols-form pt-5 '>
             <label htmlFor='role' className='text-sm font-medium text-zinc-700'>
               Role
             </label>

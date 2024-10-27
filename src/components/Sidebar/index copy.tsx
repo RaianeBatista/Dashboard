@@ -22,10 +22,10 @@ export function Sidebar() {
 
       <Input.Root>
         <Input.Prefix>
-        <Search className='h-5 w-5 text-zinc-500'/>
+          <Search className='h-5 w-5 text-zinc-500' />
         </Input.Prefix>
-        <Input.Control placeholder='Search'/>
-        </Input.Root >
+        <Input.Control placeholder='Search' />
+      </Input.Root>
 
       <nav className='space-y-0.5'>
         <NavItem title='Home' icon={Home} />
@@ -42,11 +42,11 @@ export function Sidebar() {
           <NavItem title='Settings' icon={Cog} />
         </nav>
 
-              <UsedSpaceWidget />
-              
-              <div className='h-px bg-zinc-200'>
-                  <Profile />
-              </div>
+        <UsedSpaceWidget />
+
+        <div className='h-px bg-zinc-200'>
+          <Profile />
+        </div>
       </div>
     </aside>
   );
