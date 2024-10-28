@@ -3,7 +3,7 @@ import { Button } from '../Button';
 
 export function Profile() {
   return (
-    <div className='flex items-center gap-3 p-4 '>
+    <div className='flex items-center gap-3  '>
       <img
         src='https://github.com/RaianeBatista.png'
         alt='Profile'
